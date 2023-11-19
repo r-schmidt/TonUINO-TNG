@@ -59,11 +59,13 @@ void Tonuino::setup() {
   // NFC Leser initialisieren
   chip_card.initCard();
 
+#if 0
   // RESET --- ALLE DREI KNÖPFE BEIM STARTEN GEDRÜCKT HALTEN -> alle EINSTELLUNGEN werden gelöscht
   if (buttons.isReset()) {
     settings.clearEEPROM();
     settings.loadSettingsFromFlash();
   }
+#endif
 
   SM_tonuino::start();
 #if defined ALLinONE || defined ALLinONE_Plus || defined SPKONOFF
