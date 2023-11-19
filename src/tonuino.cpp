@@ -10,6 +10,9 @@
 #include "logger.hpp"
 #include "state_machine.hpp"
 
+#undef LOG
+#define LOG(Logger_, Severity_, Expression_...) do {} while(0)
+
 namespace {
 
 const __FlashStringHelper* str_bis      () { return F(" bis "); }

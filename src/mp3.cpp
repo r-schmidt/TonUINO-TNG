@@ -3,6 +3,9 @@
 #include "tonuino.hpp"
 #include "constants.hpp"
 
+#undef LOG
+#define LOG(Logger_, Severity_, Expression_...) do {} while(0)
+
 namespace {
 
 const __FlashStringHelper* str_Space()  { return F(" ") ; }

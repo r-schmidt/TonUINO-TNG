@@ -27,7 +27,7 @@
  * -1: up/downLong -2: down       -3: downLong
  * number n > 0: Springe im Voice Menü zum n-ten Eintrag und selektiere ihn
  */
-#define SerialInputAsCommand
+//#define SerialInputAsCommand
 
 /* uncomment one of the below lines to support a special chip on the DfMiniMp3 player
  * um einen speziellen Chip auf dem DfMiniMp3 Player zu ünterstützen bitte in eine der nächste Zeilen den Kommentar entfernen
