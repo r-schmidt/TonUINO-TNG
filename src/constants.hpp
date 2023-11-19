@@ -58,9 +58,9 @@ inline constexpr uint8_t   rotaryEncoderDtPin     = 32;
 /* uncomment the below line to enable the neo ring
  * um den Neo Ring zu unterstützen bitte in der nächste Zeile den Kommentar entfernen
  */
-//#define NEO_RING
-inline constexpr uint8_t neoPixelRingPin = 10; // PB2 on AiOplus
-inline constexpr uint8_t neoPixelNumber  = 24; // Total Number of Pixels
+#define NEO_RING
+inline constexpr uint8_t neoPixelRingPin = 6; // PB2 on AiOplus
+inline constexpr uint8_t neoPixelNumber  = 8; // Total Number of Pixels
 
 /* uncomment the below line to enable the Speaker on/off on Pin D6 for Classic to suppress noise
  * on startup and shutdown
